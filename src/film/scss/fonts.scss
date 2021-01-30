@@ -1,0 +1,39 @@
+@import 'color.scss';
+
+@font-face {
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand.ttf);
+}
+@font-face {
+	font-family: Montserrat; /* Гарнитура шрифта */
+	src: url(../fonts/Montserrat.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: impact; /* Гарнитура шрифта */
+	src: url(../fonts/ImpactRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+$bigText : Quicksand;
+$staticText : Montserrat;
+$textMenu : arial;
+$title : impact;
+
+a{
+	color:$Light;
+	text-decoration:none;
+}
+h2{
+	color:$Dark;
+	font-family:$bigText;
+	font-size:30px;
+}
+
+h3{
+	font-family:$bigText;
+	font-size:20px;
+}
+p{
+	font-family:$staticText;
+	color:$Dark;
+	font-size:18px;
+}

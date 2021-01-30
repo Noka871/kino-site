@@ -1,0 +1,37 @@
+@import 'color.scss';
+@import 'fonts.scss';
+
+@mixin textBut{
+	font-size:18px;	
+	font-weight:bold;
+	font-family:$staticText;
+}
+@mixin butStyleTransparent{
+	max-height:31.5px;
+	min-width:75px;
+	//background:transparent;
+	//border:2px solid $purple;
+	//color:$purple;
+	border-radius:22px;
+	@include textBut;
+}
+@mixin butStylePurple{
+	min-width:75px;
+	max-height:31.5px;
+	//background:linear-gradient(180deg, $purple 0%, #8BA4F9 100%);
+	//border:0px solid $purple;
+	//color:$darkZero;
+	border-radius:22px;
+	@include textBut;
+}
+@mixin line{
+	height:10px;
+	width:120px;
+	background:$elements;
+	border-radius:10px;
+}
+@mixin imag{
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	margin:0 auto;
+}

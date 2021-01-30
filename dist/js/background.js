@@ -1,0 +1,10 @@
+var imgMas = new Array();
+	imgMas[0] = './img/img1.png';
+	imgMas[1] = './img/img2.png';
+	imgMas[2] = './img/img3.png';
+	var random = Math.random();
+	random = random *3;
+	random = Math.floor(random);
+	random = imgMas[random];
+	var bodyBackground = document.getElementById('body');
+	bodyBackground.style.backgroundImage = 'url('+random +')';

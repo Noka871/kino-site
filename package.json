@@ -1,0 +1,30 @@
+{
+  "name": "kino-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack ",
+    "Wwot": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrFreyd/kino-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrFreyd/kino-site/issues"
+  },
+  "homepage": "https://github.com/MrFreyd/kino-site#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.4.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "popper.js": "^1.16.0"
+  }
+}

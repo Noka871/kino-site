@@ -1,0 +1,49 @@
+@import 'color.scss';
+@import 'fonts.scss';
+@import 'mixins.scss';
+
+.mobile{
+	display:none;
+	justify-content:flex-end;
+	margin-top:5px;
+}
+.desktop{
+	display:flex;
+}
+.color{
+	background:$elements;
+}
+.kong_img{
+	background-image:url(../img/film1.png);
+}
+.diver_img{
+	background-image:url(../img/film4.png);
+}
+.crayzy_img{
+	background-image:url(../img/film3.png);
+}
+.hanibal_img{
+	background-image:url(../img/film5.png);
+}
+.background_light{
+	background:$Light;
+}
+.color_searchButton{
+	color:$Dark;
+}
+.lightColor{
+	color:$Light;
+}
+.arroundColor{
+	background:transparent;
+	box-shadow:0 0 0 0;
+	border:0;
+}
+@media screen and (min-width: 320px) and (max-width: 750px){
+	.desktop,.search{
+		display:none;
+	}
+	.mobile{
+		display:flex;
+	}
+}
